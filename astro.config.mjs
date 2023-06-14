@@ -7,6 +7,7 @@ import deno from "@astrojs/deno";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'erounate.deno.dev',
   integrations: [tailwind(), sitemap(), mdx()],
   output: "server",
   adapter: deno()
